@@ -1,0 +1,31 @@
+{
+  "name": "react-process-string-ts",
+  "version": "1.2.0",
+  "description": "A library to process strings with regular expressions. TypeScript version.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc --build tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spinthil/react-process-string-ts.git"
+  },
+  "keywords": [
+    "react",
+    "regex",
+    "string"
+  ],
+  "author": "Thilo Spinner <thilo.spinner@uni-konstanz.de>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spinthil/react-process-string-ts/issues"
+  },
+  "homepage": "https://github.com/spinthil/react-process-string-ts#readme",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "typescript": "5.0.2"
+  }
+}
