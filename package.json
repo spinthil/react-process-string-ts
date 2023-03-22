@@ -1,6 +1,6 @@
 {
   "name": "react-process-string-ts",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A library to process strings with regular expressions. TypeScript version.",
   "main": "dist/index.js",
   "scripts": {
