@@ -1,8 +1,8 @@
 {
   "name": "react-process-string-ts",
   "version": "1.2.1",
-  "description": "A library to process strings with regular expressions. TypeScript version.",
-  "main": "dist/index.js",
+  "description": "TypeScript port of react-process-string, library to process strings with regular expressions.",
+  "main": "index.js",
   "scripts": {
     "build": "npx tsc --build tsconfig.json"
   },
