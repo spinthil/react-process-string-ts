@@ -1,5 +1,6 @@
 /* ************************************************************************ *
- * Author: Thilo Spinner                                                    *
+ * Author: TSpinner                                                         *
+ * Date: 2023-03-24                                                         *
  * This is a TypeScript version of EfogDev's react-process-string library.  *
  * The original library can be found here:                                  *
  * https://github.com/EfogDev/react-process-string                          *
@@ -13,8 +14,8 @@ import React from 'react';
  * @param input The input text in which to replace parts.
  */
 export type ProcessStringOption = {
-    regex?: RegExp;
-    fn?: (key: number, result: RegExpExecArray) => string | JSX.Element;
+    regex: RegExp;
+    fn: (key: number, result: RegExpExecArray) => string | JSX.Element;
 };
 
 export default function processString(

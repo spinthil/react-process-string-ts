@@ -2,6 +2,13 @@
 TypeScript port of [react-process-string](https://github.com/EfogDev/react-process-string).
 The library allows you to process strings with regular expressions in React.
 
+The main changes from the original JS version are:
+- TypeScript support
+  - Added `ProcessStringOption` interface
+  - Typed `processString()` function
+- Updated `processString()` function to
+  - support replacements in nested JSX elements
+  - always return data of the correct type (c.f., `flatMap()` vs. previously `map()`)
 
 ## Installation
 Via npm:
