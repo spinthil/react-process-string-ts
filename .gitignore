@@ -1,3 +1,11 @@
+##########
+# Custom #
+##########
+
+# Ignore entire JetBrains config folder.
+.idea/
+
+
 ###################################
 # github/gitignore/Node.gitignore #
 ###################################
