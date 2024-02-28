@@ -21,7 +21,7 @@ export type ProcessStringOption = {
  */
 export default function processString(
     options: ProcessStringOption[]
-): (input: string | (string | JSX.Element)[]) => string | JSX.Element | (string | JSX.Element)[] {
+): (input: string | JSX.Element | (string | JSX.Element)[]) => string | JSX.Element | (string | JSX.Element)[] {
     let key = 0;
     function processInputWithRegex(
         option: ProcessStringOption,
