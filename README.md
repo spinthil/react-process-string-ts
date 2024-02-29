@@ -92,4 +92,4 @@ const processor = processString([
 
 const processed = processor(stringWithUsername);
 ```
-This code allows us to make `@usernames` clickable.
+This code allows to make `@usernames` clickable.

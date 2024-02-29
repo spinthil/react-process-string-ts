@@ -8,4 +8,4 @@ export type ProcessStringOption = {
  * @param options An array of ProcessStringOptions, each containing a regex and a replacement function fn.
  * @returns A function that takes an input text (string or JSX elements) and returns the text processed according to the given options.
  */
-export default function processString(options: ProcessStringOption[]): (input: string | (string | JSX.Element)[]) => string | JSX.Element | (string | JSX.Element)[];
+export default function processString(options: ProcessStringOption[]): (input: string | JSX.Element | (string | JSX.Element)[]) => string | JSX.Element | (string | JSX.Element)[];
